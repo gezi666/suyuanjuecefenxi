@@ -1,0 +1,175 @@
+.main-body {
+  margin-top: -50px;
+}
+.drop-down {
+  position: relative;
+}
+.drop-down .layui-form {
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+.container .myChart-left {
+  width: 35%;
+  background: url(../../img/line.png) no-repeat right center;
+  background-size: auto 100%;
+}
+.container .myChart-right {
+  width: 65%;
+  color: #fff;
+}
+.container1 {
+  margin-bottom: 0;
+}
+.container1 .total-box {
+  padding: 10px 50px 35px;
+}
+.container1 .search input {
+  background-color: #003328;
+  border-radius: 20px;
+  border-color: rgba(0, 255, 153, 0.4);
+  margin-top: 30px;
+  color: rgba(217, 238, 231, 0.5);
+  height: 32px;
+  line-height: 32px;
+}
+.container1 p {
+  line-height: 35px;
+  color: #ddd;
+  text-align: center;
+}
+.container1 p span {
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 0 5px;
+  padding-bottom: 3px;
+}
+.container1 p span.outflow-total {
+  color: #61ff70;
+}
+.container1 p span.inflow-total {
+  color: #00ccff;
+}
+.container1 .analysis-list {
+  height: 510px;
+  background: url(../../img/total-bg.png) no-repeat center;
+  background-size: auto 100%;
+  margin: 0 30px 10px;
+}
+.container1 .analysis-list h2 {
+  height: 45px;
+  line-height: 45px;
+  color: #d9eee7;
+}
+.container1 .analysis-list h2 span {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+.container1 .analysis-list .detatil-list ul {
+  width: 50%;
+  text-align: center;
+}
+.container1 .analysis-list .detatil-list li {
+  line-height: 43px;
+  color: #d9eee7;
+}
+.container1 .analysis-list .detatil-list span {
+  display: inline-block;
+  width: 33.3%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.container1 .analysis-list .detatil-list .outflow-percentage {
+  color: #61ff70;
+  font-weight: bold;
+}
+.container1 .analysis-list .detatil-list .inflow-percentage {
+  color: #00ccff;
+  font-weight: bold;
+}
+.container1 .myChart1 {
+  width: 100%;
+  height: 690px;
+}
+.container2 {
+  margin-bottom: 0;
+}
+.container2 .myChart2,
+.container2 .myChart4 {
+  width: 34%;
+  height: 400px;
+  color: #fff;
+}
+.container2 .myChart3,
+.container2 .myChart5 {
+  width: 66%;
+  height: 400px;
+  color: #fff;
+}
+.container3 .myChart6,
+.container3 .myChart7,
+.container3 .myChart8,
+.container3 .myChart9 {
+  width: 50%;
+  height: 380px;
+  color: #fff;
+}
+.container3 .myChart7 .small-title span,
+.container3 .myChart9 .small-title span {
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+  padding: 20px 32px;
+}
+.container3 .myChart7 table,
+.container3 .myChart9 table {
+  border-top: 1px solid #4af81b;
+  border-bottom: 1px solid #4af81b;
+  width: 90%;
+  margin: 0 auto;
+}
+.container3 .myChart7 table thead tr,
+.container3 .myChart9 table thead tr {
+  background: rgba(74, 248, 27, 0.1);
+  height: 28px;
+}
+.container3 .myChart7 table th:first-child,
+.container3 .myChart9 table th:first-child,
+.container3 .myChart7 table td:first-child,
+.container3 .myChart9 table td:first-child {
+  border-left: none;
+}
+.container3 .myChart7 table th:last-child,
+.container3 .myChart9 table th:last-child,
+.container3 .myChart7 table td:last-child,
+.container3 .myChart9 table td:last-child {
+  border-right: none;
+}
+.container3 .myChart7 table th,
+.container3 .myChart9 table th,
+.container3 .myChart7 table td,
+.container3 .myChart9 table td {
+  font-size: 12px;
+  color: rgba(217, 238, 231, 0.7);
+  height: 28px;
+  min-width: 45px;
+  line-height: 28px;
+  border: 1px solid rgba(74, 248, 27, 0.2);
+  text-align: center;
+}
+.container3 .myChart7 table th,
+.container3 .myChart9 table th {
+  color: #00ff99;
+  font-weight: normal;
+}
+/*yangjie*/
+#map {
+  position: relative;
+}
+.active {
+  color: #00ff99;
+}
+.active .up-span {
+  background: url("../../img/bright.png") no-repeat center;
+}

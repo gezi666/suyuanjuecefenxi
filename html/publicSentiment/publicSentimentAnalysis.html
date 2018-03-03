@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>舆情分析</title>
+  <link rel="stylesheet" type="text/css" href="../../libs/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../../css/layout.css">
+  <link rel="stylesheet" type="text/css" href="../../css/publicSentiment/publicSentimentAnalysis.css">
+</head>
+<body>
+<!--头部-->
+<div class="header-box">
+  <div class="header">
+    <div class="header-title"></div>
+    <div class="header-menu">
+      <ul class="cf">
+        <li><a href="../tracingPicture/industryLayout.html">溯源一张图</a></li>
+        <li><a href="../originTraceability/industrialStructure.html">产地追溯</a></li>
+        <li><a href="../circulationTraceability/circulationTraceability.html">流通追溯</a></li>
+        <li class="active"><a href="../qualitySafety/inspectionBatchInspection.html">质量安全</a></li>
+        <li class="active"><a href="../salesAnalysis/salesAnalysis.html">农产品销售分析</a></li>
+        <li><a href="../publicSentiment/publicSentimentAnalysis.html">农产品舆情</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--菜单-->
+  <div class="nav">
+    <ul class="cf">
+      <li class="active"><a href="../publicSentiment/publicSentimentAnalysis.html">舆情分析</a></li>
+      <li><a href="../publicSentiment/publicRetrieval.html">舆情检索</a></li>
+    </ul>
+  </div>
+</div>
+<!--主题内容-->
+<div class="main-body">
+  <div class="container">
+    <form action="" class="layui-form">
+      <div class="form-item cf">
+        <span class="int-title">主题名称：</span>
+        <select name="" id="" lay-filter="titlename">
+          <option value="">农产品</option>
+          <option value="农产品">农产品</option>
+          <option value="农产品">农产品</option>
+          <option value="农产品">农产品</option>
+        </select>
+        <span class="int-title">关键词：</span>
+        <input type="text" class="layui-input c-input title-input" value="遵化">
+        <input type="text" class="layui-input c-input title-input" value="板栗">
+        <input type="text" class="layui-input c-input title-input" value="香菇">
+        <input type="text" class="layui-input c-input title-input" value="苹果">
+      </div>
+    </form>
+  </div>
+  <div class="container container1">
+    <div class="echart-box1">
+      <div class="echart-title">
+        <h2>情感走势</h2>
+        <form action="" class="layui-form wid135">
+          <select name="" id="" lay-filter="mediatype1">
+            <option value="">全部媒体类型</option>
+            <option value="全部媒体类型">全部媒体类型</option>
+          </select>
+        </form>
+      </div>
+      <div class="myChart1">
+        <form action="" class="layui-form">
+          <div class="layui-input-block align-right">
+            <input type="radio" class="layui-input" name="selectTime" value="24小时" title="24小时" lay-filter="time1">
+            <input type="radio" class="layui-input" name="selectTime" value="一周" title="一周" lay-filter="time1">
+            <input type="radio" class="layui-input" name="selectTime" value="一个月" title="一个月" lay-filter="time1">
+            <input type="radio" class="layui-input" name="selectTime" value="自定义" title="自定义" lay-filter="time1">
+            <input class="layui-input layui-input-time" placeholder="开始时间" type="text" id="start1" disabled="disabled" /><span class="to-time">到</span><input type="text" class="layui-input layui-input-time" placeholder="结束时间" id="end1" disabled="disabled" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="myChart2" class="myChart2">
+    </div>
+  </div>
+  <div class="container container2 cf">
+    <div class="echart-left-box">
+      <div class="echart-title">
+        <h2>情感分布</h2>
+      </div>
+      <form action="" class="layui-form">
+        <div class="layui-input-block">
+          <input type="radio" class="layui-input" name="selectTime" value="24小时" title="24小时" lay-filter="time2">
+          <input type="radio" class="layui-input" name="selectTime" value="一周" title="一周" lay-filter="time2">
+          <input type="radio" class="layui-input" name="selectTime" value="一个月" title="一个月" lay-filter="time2">
+          <input type="radio" class="layui-input" name="selectTime" value="自定义" title="自定义" lay-filter="time2">
+          <input class="layui-input layui-input-time" placeholder="开始时间" type="text" id="start2" disabled="disabled" disabled="disabled" disabled="disabled" disabled="disabled" /><span class="to-time">到</span><input type="text" class="layui-input layui-input-time" placeholder="结束时间" id="end2" disabled="disabled" disabled="disabled" disabled="disabled" disabled="disabled" />
+        </div>
+      </form>
+      <div id="myChart3" class="myChart3">
+      </div>
+    </div>
+    <div class="echart-right-box">
+      <div class="echart-title">
+        <h2>负面信息来源媒体</h2>
+        <form action="" class="layui-form wid135">
+          <select name="" id="" lay-filter="mediatype2">
+            <option value="">全部媒体类型</option>
+            <option value="全部媒体类型">全部媒体类型</option>
+          </select>
+        </form>
+      </div>
+      <form action="" class="layui-form">
+        <div class="layui-input-block">
+          <input type="radio" class="layui-input" name="selectTime" value="24小时" title="24小时" lay-filter="time3">
+          <input type="radio" class="layui-input" name="selectTime" value="一周" title="一周" lay-filter="time3">
+          <input type="radio" class="layui-input" name="selectTime" value="一个月" title="一个月" lay-filter="time3">
+          <input type="radio" class="layui-input" name="selectTime" value="自定义" title="自定义" lay-filter="time3">
+          <input class="layui-input layui-input-time" placeholder="开始时间" type="text" id="start3" disabled="disabled" disabled="disabled" disabled="disabled" /><span class="to-time">到</span><input type="text" class="layui-input layui-input-time" placeholder="结束时间" id="end3" disabled="disabled" disabled="disabled" disabled="disabled" />
+        </div>
+      </form>
+      <div id="myChart4" class="myChart4">
+      </div>
+    </div>
+  </div>
+  <div class="container container3 cf">
+    <div class="echart-left-box">
+      <div class="echart-title">
+        <h2>媒体类型覆盖</h2>
+      </div>
+      <form action="" class="layui-form">
+        <div class="layui-input-block">
+          <input type="radio" class="layui-input" name="selectTime" value="24小时" title="24小时" lay-filter="time4">
+          <input type="radio" class="layui-input" name="selectTime" value="一周" title="一周" lay-filter="time4">
+          <input type="radio" class="layui-input" name="selectTime" value="一个月" title="一个月" lay-filter="time4">
+          <input type="radio" class="layui-input" name="selectTime" value="自定义" title="自定义" lay-filter="time4">
+          <input class="layui-input layui-input-time" placeholder="开始时间" type="text" id="start4" disabled="disabled" disabled="disabled" /><span class="to-time">到</span><input type="text" class="layui-input layui-input-time" placeholder="结束时间" id="end4" disabled="disabled" disabled="disabled" />
+        </div>
+      </form>
+      <div id="myChart5" class="myChart5">
+      </div>
+    </div>
+    <div class="echart-right-box">
+      <div class="echart-title">
+        <h2>媒体来源排行</h2>
+        <form action="" class="layui-form wid135">
+          <select name="" id="" lay-filter="mediatype3">
+            <option value="">全部媒体类型</option>
+            <option value="全部媒体类型">全部媒体类型</option>
+          </select>
+        </form>
+      </div>
+      <form action="" class="layui-form">
+        <div class="layui-input-block">
+          <input type="radio" class="layui-input" name="selectTime" value="24小时" title="24小时" lay-filter="time5">
+          <input type="radio" class="layui-input" name="selectTime" value="一周" title="一周" lay-filter="time5">
+          <input type="radio" class="layui-input" name="selectTime" value="一个月" title="一个月" lay-filter="time5">
+          <input type="radio" class="layui-input" name="selectTime" value="自定义" title="自定义" lay-filter="time5">
+          <input class="layui-input layui-input-time" placeholder="开始时间" type="text" id="start5" disabled="disabled" /><span class="to-time">到</span><input type="text" class="layui-input layui-input-time" placeholder="结束时间" id="end5" disabled="disabled" />
+        </div>
+      </form>
+      <div id="myChart6" class="myChart6">
+      </div>
+    </div>
+  </div>
+  <div class="container container4 cf">
+    <div class="echart-left-box">
+      <div class="echart-title">
+        <h2>最新舆情<span class="more fr">查看更多&gt;&gt;</span></h2>
+      </div>
+      <ul class="every-mess-box">
+      <li>
+        <h3>高清罗田版《小<i class="keyWord">苹果</i>》-你是我的<i class="keyWord">板栗</i>果</h3>
+        <span>百度</span><span>2017-07-05</span><span>18:55:00</span><span class="sign sign-green">正面</span>
+      </li>
+      <li>
+        <h3>信阳<i class="keyWord">板栗</i>&nbsp;|&nbsp;<i class="keyWord">板栗</i>仁粽子 </h3>
+        <span>百度</span><span>2017-07-05</span><span>18:55:00</span><span class="sign sign-green">正面</span>
+      </li>
+      <li>
+        <h3><i class="keyWord">板栗</i>开口机&nbsp;轻松让<i class="keyWord">板栗</i>开口</h3>
+        <span>百度</span><span>2017-07-05</span><span>18:55:00</span><span class="sign sign-gray">中性</span>
+      </li>
+      <li>
+        <h3><i class="keyWord">板栗</i>开口机&nbsp;轻松让<i class="keyWord">板栗</i>开口</h3>
+        <span>百度</span><span>2017-07-05</span><span>18:55:00</span><span class="sign sign-orange">负面</span>
+      </li>
+    </ul>
+    </div>
+    <div class="echart-right-box">
+      <div class="echart-title">
+        <h2>负面舆情<span class="more fr">查看更多&gt;&gt;</span></h2>
+      </div>
+      <ul class="every-mess-box">
+        <li>
+          <h3>高清罗田版《小<i class="keyWord">苹果</i>》-你是我的<i class="keyWord">板栗</i>果</h3>
+          <span>百度</span><span>2017-07-05</span><span>18:55:00</span><span class="sign sign-green">正面</span>
+        </li>
+        <li>
+          <h3>信阳<i class="keyWord">板栗</i>&nbsp;|&nbsp;<i class="keyWord">板栗</i>仁粽子 </h3>
+          <span>百度</span><span>2017-07-05</span><span>18:55:00</span><span class="sign sign-green">正面</span>
+        </li>
+        <li>
+          <h3><i class="keyWord">板栗</i>开口机&nbsp;轻松让<i class="keyWord">板栗</i>开口</h3>
+          <span>百度</span><span>2017-07-05</span><span>18:55:00</span><span class="sign sign-gray">中性</span>
+        </li>
+        <li>
+          <h3><i class="keyWord">板栗</i>开口机&nbsp;轻松让<i class="keyWord">板栗</i>开口</h3>
+          <span>百度</span><span>2017-07-05</span><span>18:55:00</span><span class="sign sign-orange">负面</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="copy-right">
+      <p>Copyright Jusfoun.com © 2016-2017&nbsp;&nbsp;&nbsp;&nbsp;河北溯源大数据信息技术有限公司</p>
+      <p>技术支持&nbsp;&nbsp;&nbsp;&nbsp;九次方大数据信息集团有限公司</p>
+    </div>
+  </div>
+</div>
+<script src="../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../libs/echart/echarts.min.js"></script>
+<script src="../../libs/echart/line.js"></script>
+<script src="../../libs/echart/pie.js"></script>
+<script src="../../libs/echart/bar.js"></script>
+<script src="../../libs/layui/layui.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/publicSentiment/publicSentimentAnalysis.js"></script>
+</body>
+</html>

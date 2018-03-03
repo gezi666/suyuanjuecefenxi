@@ -1,0 +1,156 @@
+.form-item .c-input2 {
+  width: 268px;
+  text-align: left;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+.container .inline-block {
+  display: inline-block;
+  padding-left: 50px;
+}
+.article-sort {
+  margin-top: 20px;
+}
+.article-sort .search-word,
+.article-sort .search-btn {
+  display: inline-block;
+  height: 24px;
+  line-height: 26px;
+  border: 1px solid #00764d;
+  padding: 0 25px;
+  margin: 0 10px;
+  border-radius: 20px;
+  color: #99ffcc;
+  background: #00533a;
+  cursor: pointer;
+}
+.article-sort .search-word:hover,
+.article-sort .search-btn:hover {
+  opacity: .8;
+}
+.article-sort .search-word.active {
+  background: url(../../img/article-btn.png) no-repeat;
+  background-size: 100% 100%;
+}
+.article-sort .search-btn {
+  background: #7f711d;
+  border-color: #fd9b00;
+}
+.article-sort .layui-form-checked[lay-skin=primary] i {
+  border-color: #00764d;
+  background: #00533a;
+  margin-left: 10px;
+}
+.article-sort .layui-form-checkbox[lay-skin=primary] i {
+  margin-left: 10px;
+}
+.article-sort .layui-form-checkbox[lay-skin=primary] span {
+  color: #99ffcc;
+}
+.small-title h2 {
+  border: none;
+  font-size: 16px;
+  line-height: 30px;
+  color: #d9eee7;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 50%;
+}
+.small-title .small-title-icon .iconfont {
+  color: #99ffcc;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.small-title .small-title-icon .iconfont:hover {
+  opacity: .8;
+}
+.sign-orange-box input {
+  border-color: #37cc22;
+  height: 30px;
+  color: #37cc22;
+}
+.sign-orange-box .layui-edge {
+  border-top-color: #37cc22;
+}
+.sign-gray-box input {
+  color: #00d5cf;
+  border-color: #008b7c;
+  height: 30px;
+}
+.sign-gray-box .layui-edge {
+  border-top-color: #00d5cf;
+}
+.time-link {
+  padding: 15px 0;
+}
+.time-link span {
+  padding: 10px;
+  color: #8aa29b;
+}
+.time-link .article {
+  color: #fd9b00;
+  cursor: pointer;
+}
+.time-link .from-link {
+  margin-left: 20px;
+}
+.time-link .from-link b {
+  font-weight: normal;
+  color: #00ecec;
+  cursor: pointer;
+}
+.search-result {
+  padding: 25px 15px;
+  box-sizing: border-box;
+  background: url(../../img/title-detail-line.png) no-repeat bottom center;
+}
+.search-result p {
+  color: #8aa29b;
+  padding-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.layui-laypage a,
+.layui-laypage span {
+  border: none;
+  background: none;
+  color: #d9eee7;
+}
+.page .layui-laypage-prev,
+.page .layui-laypage-next,
+.layui-laypage button,
+.layui-laypage input {
+  border: 1px solid #008a5e;
+  border-radius: 20px;
+  color: #d9eee7;
+  background: #00604b;
+}
+.page .layui-laypage-prev:hover,
+.page .layui-laypage-next:hover,
+.layui-laypage button:hover,
+.layui-laypage input:hover {
+  opacity: .8;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+  border: 1px solid #008a5e;
+  border-radius: 5px;
+  left: 1px;
+  top: 1px;
+  width: 80%;
+  height: 80%;
+  background: #00604b!important;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em:hover {
+  opacity: .7;
+}
+/*yj*/
+.form-item .int-title {
+  color: #99ffcc;
+  font-size: 14px;
+}
+.icon-collection {
+  color: #99ffcc!important;
+}

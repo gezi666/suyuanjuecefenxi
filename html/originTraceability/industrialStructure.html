@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>遵化产业结构</title>
+    <link rel="stylesheet" type="text/css" href="../../libs/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../../css/originTraceability/industrialStructure.css">
+</head>
+
+<body>
+    <!--头部-->
+    <div class="header-box">
+        <div class="header">
+            <div class="header-title"></div>
+            <div class="header-menu">
+                <ul class="cf">
+                    <li><a href="../tracingPicture/industryLayout.html">溯源一张图</a></li>
+                    <li class="active"><a href="../originTraceability/industrialStructure.html">产地追溯</a></li>
+                    <li><a href="../circulationTraceability/circulationTraceability.html">流通追溯</a></li>
+                    <li><a href="../qualitySafety/inspectionBatchInspection.html">质量安全</a></li>
+                    <li class="active"><a href="../salesAnalysis/salesAnalysis.html">农产品销售分析</a></li>
+                    <li><a href="../publicSentiment/publicSentimentAnalysis.html">农产品舆情</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--菜单-->
+        <div class="nav">
+            <ul class="cf">
+                <li class="active"><a href="../originTraceability/industrialStructure.html">遵化产业结构</a></li>
+                <li><a href="../originTraceability/monitoringofProducingArea.html">遵化产地检测</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--主题内容-->
+    <div class="main-body">
+        <div class="drop-down drop-down1 cf">
+            <h2>区域农产品种养殖结构</h2>
+            <form action="" class="layui-form fr">
+                <select name="" id="" lay-filter="time1">
+          <option value="">2017年</option>
+          <option value="2017">2017年</option>
+          <option value="2016">2016年</option>
+        </select>
+            </form>
+        </div>
+        <div class="container container1">
+            <ul class="area-tab1 cf">
+                <li class="active">干鲜果</li>
+                <li>蔬菜</li>
+                <li>蓄产品</li>
+                <li>食用菌</li>
+                <li>水产品</li>
+            </ul>
+            <div class="title-detail">
+                <h2>2017年遵化区域干鲜果种植面积为<span>138</span>万亩</h2>
+                <h2>其中加入溯源体系的为<span>46</span>万亩</h2>
+            </div>
+            <div class="echart-box cf">
+                <div id="myChart1" class="myChart1 fl"></div>
+                <div id="myChart2" class="myChart2 fl"></div>
+                <div id="myChart3" class="myChart3 fl"></div>
+            </div>
+        </div>
+        <div class="drop-down cf">
+            <h2>区域主要农产品品种结构</h2>
+            <!--<form action="" class="layui-form fr">-->
+            <!--<select name="" id=""  lay-filter="time2">-->
+            <!--<option value="">2017年</option>-->
+            <!--<option value="2016年">2016年</option>-->
+            <!--</select>-->
+            <!--</form>-->
+        </div>
+        <div class="container container2">
+            <div class="echart-box cf">
+                <div id="myChart4" class="myChart4 fl"></div>
+                <div id="myChart5" class="myChart5 fl">
+                    <!--  <iframe id="myFrame" name="myFrame" src="relationIfream.html" scrolling="no" width="426" height="400" frameborder="0"></iframe>
+             <div class="legend-wrapper">
+               <div class="legend-wrapper-true fl">
+                 非溯源品种总数
+               </div>
+               <div class="legend-wrapper-false fl">
+                 溯源品种总数
+               </div>
+             </div> -->
+                </div>
+                <div id="myChart6" class="myChart6 fl"></div>
+            </div>
+        </div>
+        <div class="drop-down cf">
+            <h2>区域产地分布结构</h2>
+        </div>
+        <div class="container container3 container-bottom">
+            <ul class="area-tab cf">
+                <li class="active">产业分布</li>
+                <li>主体分布</li>
+            </ul>
+            <div class="echart-box cf">
+                <div id="myChart7" class="myChart7 fl">
+                    <ul class="mark">
+                        <li style='background: url("../../img/vegetable.png") no-repeat left center'>蔬菜产区</li>
+                        <li style='background: url("../../img/fruit.png") no-repeat left center'>干鲜果产区</li>
+                        <li style='background: url("../../img/animal.png") no-repeat left center'>畜牧产区</li>
+                        <li style='background: url("../../img/eat.png") no-repeat left center'>食用菌产区</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copy-right">
+                <p>Copyright Jusfoun.com © 2016-2017&nbsp;&nbsp;&nbsp;&nbsp;河北溯源大数据信息技术有限公司</p>
+                <p>技术支持&nbsp;&nbsp;&nbsp;&nbsp;九次方大数据信息集团有限公司</p>
+            </div>
+        </div>
+    </div>
+    <script src="../../libs/jquery/jquery-3.1.1.min.js"></script>
+    <script src="../../libs/echart/echarts.min.js"></script>
+    <script src="../../libs/echart/pieHover.js"></script>
+    <script src="../../libs/echart/doubleBar.js"></script>
+    <script src="../../libs/echart/chart-library.min.js"></script>
+    <script src="../../libs/echart/zunhua-map.js"></script>
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="../../js/common.js"></script>
+    <script src="../../js/originTraceability/industrialStructure.js"></script>
+</body>
+
+</html>

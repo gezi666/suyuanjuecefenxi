@@ -1,0 +1,210 @@
+.container .myChart-left {
+  width: 35%;
+  background: url(../../img/line.png) no-repeat right center;
+  background-size: auto 100%;
+}
+.container .myChart-right {
+  width: 65%;
+  color: #fff;
+}
+.container1 .myChart1,
+.container1 .myChart2,
+.container1 .myChart3 {
+  width: 90%;
+  margin-right: 10%;
+  height: 300px;
+  color: #fff;
+}
+.container1 .dashboard {
+  padding: 80px 120px;
+}
+.container1 .myChart4 {
+  width: 100%;
+  height: 900px;
+}
+.container1 .myChart4 ul.mark {
+  width: 110px;
+  z-index: 13;
+  position: absolute;
+  left: 65px;
+  bottom: 50px;
+}
+.container1 .myChart4 ul.mark li {
+  width: 110px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+  color: #d9eee7;
+  text-indent: 30px;
+}
+.container2 .myChart1,
+.container2 .myChart2 {
+  width: 100%;
+  color: #fff;
+}
+.container2 .myChart1 {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+.container2 .myChart1 li {
+  float: left;
+  width: 42%;
+  color: #fafbfb;
+  margin: 0 4%;
+}
+.container2 .myChart1 .num-home {
+  float: right;
+}
+.container2 .myChart1 span {
+  line-height: 30px;
+}
+.container2 .myChart1 strong {
+  font-size: 25px;
+  line-height: 30px;
+  color: #00ff99;
+}
+.container2 .myChart2 {
+  height: 570px;
+  padding-bottom: 30px;
+}
+.container2 .myChart3 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.container2 .myChart3 ul.mark {
+  width: 170px;
+  z-index: 13;
+  position: absolute;
+  left: 24px;
+  bottom: 40px;
+}
+.container2 .myChart3 ul.mark li {
+  width: 170px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #d9eee7;
+}
+.container2 .myChart3 ul.mark li span.vip-icon {
+  width: 26px;
+  height: 30px;
+  text-align: center;
+  margin-right: 7px;
+}
+.container2 .myChart3 ul.mark li span.common {
+  width: 46px;
+  height: 30px;
+}
+.container2 .myChart3 ul.mark li span.destination {
+  width: 90px;
+  height: 30px;
+}
+.container3 .pos-r {
+  position: relative;
+}
+.container3 .pos-a {
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  right: 15px;
+}
+.container3 .myChart1 {
+  width: 100%;
+  height: 430px;
+  color: #fff;
+}
+.container3 .myChart2 {
+  width: 100%;
+  height: 270px;
+  color: #fff;
+}
+.container3 .myChart3 {
+  width: 100%;
+  height: 700px;
+}
+.container4 .total-box {
+  padding: 30px 50px;
+}
+.container4 .search input {
+  background-color: #003328;
+  border-radius: 20px;
+  border-color: #00734c;
+  margin-top: 30px;
+  color: rgba(217, 238, 231, 0.5);
+  height: 32px;
+  line-height: 32px;
+}
+.container4 p {
+  line-height: 35px;
+  color: #d9eee7;
+  text-align: center;
+}
+.container4 p span {
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 0 5px;
+  padding-bottom: 3px;
+}
+.container4 p span.outflow-total {
+  color: #61ff70;
+}
+.container4 p span.inflow-total {
+  color: #00ccff;
+}
+.container4 .analysis-list {
+  height: 480px;
+  background: url(../../img/total-bg.png) no-repeat center;
+  background-size: auto 100%;
+  margin: 0 30px 10px;
+}
+.container4 .analysis-list h2 {
+  height: 45px;
+  line-height: 45px;
+  color: #d9eee7;
+}
+.container4 .analysis-list h2 span {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+.container4 .analysis-list .detatil-list ul {
+  width: 50%;
+  text-align: center;
+}
+.container4 .analysis-list .detatil-list li {
+  line-height: 40px;
+  color: #d9eee7;
+}
+.container4 .analysis-list .detatil-list span {
+  display: inline-block;
+  width: 33.3%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.container4 .analysis-list .detatil-list .outflow-percentage {
+  color: #61ff70;
+  font-weight: bold;
+}
+.container4 .analysis-list .detatil-list .inflow-percentage {
+  color: #00ccff;
+  font-weight: bold;
+}
+.container4 .myChart1 {
+  width: 100%;
+  height: 690px;
+}
+/*yangjie*/
+#map {
+  position: relative;
+}
+.active {
+  color: #00ff99;
+}
+.active .up-span {
+  background: url("../../img/bright.png") no-repeat center;
+}
+.layui-form {
+    height: 26px;
+}

@@ -1,0 +1,205 @@
+.header-box {
+  height: 190px;
+}
+.nav {
+  padding-bottom: 20px;
+}
+.form-item {
+  margin: 20px;
+}
+.form-item .int-title {
+  display: inline-block;
+  color: #d9eee7;
+}
+.form-item .layui-form-select {
+  float: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.form-item .c-input {
+  border-radius: 20px;
+  height: 26px;
+  text-align: center;
+  width: 100px;
+  margin-left: 10px;
+  background: #004032;
+  display: inline-block;
+  padding: 5px;
+  line-height: 26px;
+  border-color: #007f54;
+  color: #d9eee7;
+  outline: none;
+}
+.container .echart-title {
+  background: url(../../img/title-detail-line.png) no-repeat bottom center;
+  background-size: 100% auto;
+  padding: 20px;
+  position: relative;
+}
+.container h2 {
+  color: #99ffcc;
+  line-height: 20px;
+  border-left: 2px solid #99ffcc;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.container .echart-title > .layui-form {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+}
+.container .layui-form-radio {
+  padding-right: 0;
+  margin-right: 5px;
+}
+.container .layui-form-radio span {
+  color: #d9eee7;
+}
+.container .layui-form-radio i:hover,
+.container .layui-form-radioed i {
+  color: #0fcf84;
+}
+.container .layui-form-radio i {
+  color: #0fcf84;
+}
+.container .layui-input-time {
+  display: inline-block;
+  width: 100px;
+  height: 26px;
+  line-height: 26px;
+  vertical-align: middle;
+  border-radius: 30px;
+  background: #003c2f;
+  color: #d9eee7;
+  padding: 0;
+  margin-top: 8px;
+  text-align: center;
+  border: 1px solid rgba(0, 248, 153, 0.3);
+}
+.container .layui-input-block {
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.container .laydate_body .laydate_y {
+  margin-right: 13px;
+}
+.container span.to-time {
+  color: #d9eee7;
+  padding: 0 5px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 8px;
+}
+.container .wid135 .layui-form-select {
+  width: 135px;
+}
+.container .align-right {
+  text-align: right;
+  margin-right: 20px;
+}
+.container1 .myChart2 {
+  width: 100%;
+  height: 450px;
+}
+.container2 .echart-left-box,
+.container3 .echart-left-box,
+.container4 .echart-left-box,
+.container2 .echart-right-box,
+.container3 .echart-right-box,
+.container4 .echart-right-box {
+  width: 50%;
+  float: left;
+}
+.container2 .myChart3,
+.container3 .myChart3,
+.container4 .myChart3,
+.container2 .myChart4,
+.container3 .myChart4,
+.container4 .myChart4,
+.container2 .myChart5,
+.container3 .myChart5,
+.container4 .myChart5,
+.container2 .myChart6,
+.container3 .myChart6,
+.container4 .myChart6 {
+  height: 400px;
+}
+.container4 .more {
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.container4 .every-mess-box {
+  padding: 0 30px;
+}
+.container4 li {
+  background: url(../../img/title-detail-line.png) no-repeat bottom center;
+  background-size: 100% auto;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+.container4 li h3 {
+  color: #d9eee7;
+  line-height: 35px;
+  padding-right: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.container4 li span {
+  margin: 0 10px;
+  line-height: 30px;
+  display: inline-block;
+  color: rgba(217, 238, 231, 0.5);
+}
+.container4 li .sign {
+  border: solid 1px #fff;
+  position: absolute;
+  border-radius: 20px;
+  right: -10px;
+  top: 28px;
+  text-align: center;
+  height: 24px;
+  line-height: 26px;
+  width: 60px;
+}
+.container4 li .sign-orange {
+  border-color: #fd9b00;
+  color: rgba(253, 149, 0, 0.5);
+}
+.container4 li .sign-green {
+  border-color: #168231;
+  color: #37cc22;
+}
+.container4 li .sign-gray {
+  color: #00d5cf;
+  border-color: #008b7c;
+}
+.container4 li .keyWord {
+  color: #34ff00;
+  font-style: normal;
+}
+/*yj*/
+.layui-select-title .layui-input {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-select-title .layui-input::-webkit-input-placeholder,
+.container .layui-input-time::-webkit-input-placeholder {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-select-title .layui-input:-moz-placeholder,
+.container .layui-input-time::-webkit-input-placeholder {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-select-title .layui-input::-moz-placeholder,
+.container .layui-input-time::-webkit-input-placeholder {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-select-title .layui-input:-ms-input-placeholder,
+.container .layui-input-time::-webkit-input-placeholder {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-input:hover {
+  border: 1px solid #00f899 !important;
+}

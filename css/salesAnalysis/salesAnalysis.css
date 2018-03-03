@@ -1,0 +1,74 @@
+.layui-form {
+  position: static;
+  margin-bottom: 15px;
+}
+.container1 .echart-left-box {
+  background: url(../../img/line.png) no-repeat right center;
+  background-size: auto 100%;
+  width: 28%;
+}
+.container1 .echart-right-box {
+  background: url(../../img/line.png) no-repeat left center;
+  background-size: auto 100%;
+  width: 28%;
+}
+.container1 .echart-center-box {
+  width: 44%;
+}
+.container1 .myChart1,
+.container1 .myChart2,
+.container1 .myChart3,
+.container1 .myChart6,
+.container1 .myChart7,
+.container1 .myChart8 {
+  height: 300px;
+  width: 100%;
+  color: #fff;
+}
+.container1 .myChart4,
+.container1 .myChart5 {
+  height: 450px;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+.container1 .myChart4 .map-detiles,
+.container1 .myChart5 .map-detiles {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 128px;
+  height: 56px;
+  background: rgba(74, 248, 27, 0.3);
+  border: 1px solid #4af81b;
+  border-radius: 10px;
+  z-index: 9;
+}
+.detiles-num {
+  height: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 10px;
+  line-height: 32px;
+}
+.detiles-num i {
+  display: inline-block;
+  font-size: 12px;
+}
+.detiles-num span {
+  color: #fff;
+  font-size: 12px;
+}
+.detiles-num span.all-num {
+  font-size: 22px;
+  font-weight: bold;
+}
+/* .detiles-num span.danwen,.detiles-num span.rate{
+  margin-left: -3px;
+}
+ */
+.detiles-info {
+  padding-left: 10px;
+  line-height: 24px;
+  color: #f4f7f5;
+  font-size: 12px;
+}

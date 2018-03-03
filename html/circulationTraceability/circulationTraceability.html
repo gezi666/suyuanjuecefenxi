@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>流通追溯</title>
+  <link rel="stylesheet" type="text/css" href="../../libs/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../../css/layout.css">
+  <link rel="stylesheet" type="text/css" href="../../css/circulationTraceability/circulationTraceability.css">
+</head>
+<body>
+<!--头部-->
+<div class="header-box">
+  <div class="header">
+    <div class="header-title"></div>
+    <div class="header-menu">
+      <ul class="cf">
+        <li><a href="../tracingPicture/industryLayout.html">溯源一张图</a></li>
+        <li><a href="../originTraceability/industrialStructure.html">产地追溯</a></li>
+        <li class="active"><a href="../circulationTraceability/circulationTraceability.html">流通追溯</a></li>
+        <li><a href="../qualitySafety/inspectionBatchInspection.html">质量安全</a></li>
+        <li><a href="../salesAnalysis/salesAnalysis.html">农产品销售分析</a></li>
+        <li><a href="../publicSentiment/publicSentimentAnalysis.html">农产品舆情</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--主题内容-->
+<div class="main-body">
+  <div class="drop-down cf">
+    <h2>农产品流向区域分析</h2>
+    <form action="" class="layui-form fr">
+      <select name="" id="" lay-filter="time1">
+        <option value="">2017年</option>
+        <option value="2016年">2016年</option>
+      </select>
+    </form>
+  </div>
+  <div class="container container1 cf">
+    <div class="myChart-left fl">
+      <div class="total-box">
+        <div class="search">
+          <input type="text" class="layui-input" placeholder="农产品名称，默认全部">
+        </div>
+        <div class="search">
+          <input type="text" class="layui-input" placeholder="企业名称，默认全部">
+        </div>
+      </div>
+      <div class="analysis-list">
+        <h2>
+          <span>流出城市分析</span>
+          <span>流入城市分析</span>
+        </h2>
+        <div class="detatil-list">
+          <ul class="cf fl">
+            <li><span>1</span><span>北京</span><span class="outflow-percentage">76.8%</span></li>
+            <li><span>2</span><span>天津</span><span class="outflow-percentage">19.8%</span></li>
+            <li><span>3</span><span>德州</span><span class="outflow-percentage">0.7%</span></li>
+            <li><span>4</span><span>赤峰</span><span class="outflow-percentage">0.5%</span></li>
+            <li><span>5</span><span>哈尔滨</span><span class="outflow-percentage">0.4%</span></li>
+            <li><span>6</span><span>太原</span><span class="outflow-percentage">0.4%</span></li>
+            <li><span>7</span><span>郑州</span><span class="outflow-percentage">0.4%</span></li>
+            <li><span>8</span><span>沈阳</span><span class="outflow-percentage">0.3%</span></li>
+            <li><span>9</span><span>上海</span><span class="outflow-percentage">0.3%</span></li>
+            <li><span>10</span><span>长春</span><span class="outflow-percentage">0.3%</span></li>
+          </ul>
+          <ul class="cf fl">
+            <li><span>1</span><span>北京</span><span class="inflow-percentage">76.8%</span></li>
+            <li><span>2</span><span>天津</span><span class="inflow-percentage">19.8%</span></li>
+            <li><span>3</span><span>德州</span><span class="inflow-percentage">0.7%</span></li>
+            <li><span>4</span><span>赤峰</span><span class="inflow-percentage">0.5%</span></li>
+            <li><span>5</span><span>哈尔滨</span><span class="inflow-percentage">0.4%</span></li>
+            <li><span>6</span><span>太原</span><span class="inflow-percentage">0.4%</span></li>
+            <li><span>7</span><span>郑州</span><span class="inflow-percentage">0.4%</span></li>
+            <li><span>8</span><span>沈阳</span><span class="inflow-percentage">0.3%</span></li>
+            <li><span>9</span><span>上海</span><span class="inflow-percentage">0.3%</span></li>
+            <li><span>10</span><span>长春</span><span class="inflow-percentage">0.3%</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="myChart-right fr">
+      <div id="map" class="myChart1"></div>
+    </div>
+  </div>
+  <div class="drop-down cf">
+    <h2>农产品流向品种分析</h2>
+    <form action="" class="layui-form fr">
+      <select name="" id="selectType" lay-filter="type">
+        <option value="">全部</option>
+        <option value="干鲜果">干鲜果</option>
+      </select>
+      <select name="" id="" lay-filter="time2">
+        <option value="">2017年</option>
+        <option value="2017年">2017年</option>
+        <option value="2016年">2016年</option>
+      </select>
+    </form>
+  </div>
+  <div class="container container2">
+    <div class="echart-box cf">
+      <div id="myChart2" class="myChart2 fl"></div>
+      <div id="myChart3" class="myChart3 fl"></div>
+    </div>
+    <div class="echart-box cf">
+      <div id="myChart4" class="myChart4 fl"></div>
+      <div id="myChart5" class="myChart5 fl"></div>
+    </div>
+  </div>
+  <div class="drop-down cf">
+    <h2>农产品流向企业分析</h2>
+    <form action="" class="layui-form fr">
+      <select name="" id="" lay-filter="time3">
+        <option value="">2017年</option>
+        <option value="2017年">2017年</option>
+        <option value="2016年">2016年</option>
+      </select>
+    </form>
+  </div>
+  <div class="container container3">
+    <div class="echart-box cf">
+      <div id="myChart6" class="myChart6 fl"></div>
+      <div id="myChart7" class="myChart7 fl">
+        <div class="small-title cf"><span class="fl">农产品近10年累计流出总量企业排名</span><span class="fr">农产品区域（遵化）流出重点企业</span></div>
+        <table>
+          <thead>
+            <tr>
+              <th>排名</th>
+              <th>企业名称</th>
+              <th>累计出产品量（吨）</th>
+              <th>主要流出产品</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>唐山尚禾源</td>
+              <td>23424</td>
+              <td>XX、XX</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>唐山尚禾源</td>
+              <td>23424</td>
+              <td>XX、XX</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>唐山尚禾源</td>
+              <td>23424</td>
+              <td>XX、XX</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>唐山尚禾源</td>
+              <td>23424</td>
+              <td>XX、XX</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>唐山尚禾源</td>
+              <td>23424</td>
+              <td>XX、XX</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>唐山尚禾源</td>
+              <td>23424</td>
+              <td>XX、XX</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>唐山尚禾源</td>
+              <td>23424</td>
+              <td>XX、XX</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>唐山尚禾源</td>
+              <td>23424</td>
+              <td>XX、XX</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="echart-box cf">
+      <div id="myChart8" class="myChart8 fl"></div>
+      <div id="myChart9" class="myChart9 fl">
+        <div class="small-title cf"><span class="fl">农产品近10年累计流入总量企业排名</span><span class="fr">农产品区域（遵化）流入重点企业</span></div>
+        <table>
+          <thead>
+          <tr>
+            <th>排名</th>
+            <th>企业名称</th>
+            <th>累计入产品量（吨）</th>
+            <th>主要流入产品</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>1</td>
+            <td>唐山尚禾源</td>
+            <td>23424</td>
+            <td>XX、XX</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>唐山尚禾源</td>
+            <td>23424</td>
+            <td>XX、XX</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>唐山尚禾源</td>
+            <td>23424</td>
+            <td>XX、XX</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>唐山尚禾源</td>
+            <td>23424</td>
+            <td>XX、XX</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>唐山尚禾源</td>
+            <td>23424</td>
+            <td>XX、XX</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>唐山尚禾源</td>
+            <td>23424</td>
+            <td>XX、XX</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>唐山尚禾源</td>
+            <td>23424</td>
+            <td>XX、XX</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>唐山尚禾源</td>
+            <td>23424</td>
+            <td>XX、XX</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="copy-right">
+      <p>Copyright Jusfoun.com © 2016-2017&nbsp;&nbsp;&nbsp;&nbsp;河北溯源大数据信息技术有限公司</p>
+      <p>技术支持&nbsp;&nbsp;&nbsp;&nbsp;九次方大数据信息集团有限公司</p>
+    </div>
+  </div>
+</div>
+<script src="../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../libs/echart/echarts.min.js"></script>
+<script src='../../js/circulationTraceability/chart-library.min.js'></script>
+<script src="../../libs/echart/pieHover.js"></script>
+<script src="../../libs/echart/line2.js"></script>
+<script src="../../libs/echart/stackHroizonalBar.js"></script>
+<script src="../../libs/layui/layui.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/circulationTraceability/circulationTraceability.js"></script>
+</body>
+</html>

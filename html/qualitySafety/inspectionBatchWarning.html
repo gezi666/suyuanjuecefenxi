@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>检测检验批次预警</title>
+  <link rel="stylesheet" type="text/css" href="../../libs/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../../css/layout.css">
+  <link rel="stylesheet" type="text/css" href="../../css/qualitySafety/inspectionBatchInspection.css">
+</head>
+<body>
+<!--头部-->
+<div class="header-box">
+  <div class="header">
+    <div class="header-title"></div>
+    <div class="header-menu">
+      <ul class="cf">
+        <li><a href="../tracingPicture/industryLayout.html">溯源一张图</a></li>
+        <li><a href="../originTraceability/industrialStructure.html">产地追溯</a></li>
+        <li><a href="../circulationTraceability/circulationTraceability.html">流通追溯</a></li>
+        <li class="active"><a href="../qualitySafety/inspectionBatchInspection.html">质量安全</a></li>
+        <li><a href="../salesAnalysis/salesAnalysis.html">农产品销售分析</a></li>
+        <li><a href="../publicSentiment/publicSentimentAnalysis.html">农产品舆情</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--菜单-->
+  <div class="nav">
+    <ul class="cf">
+      <li><a href="../qualitySafety/inspectionBatchInspection.html">遵化检测检验批次监测</a></li>
+      <li class="active"><a href="../qualitySafety/inspectionBatchWarning.html">检测检验批次预警</a></li>
+     <!--  <li><a href="../qualitySafety/inspectionBatchInspection.html">农产品质量安全指数</a></li> -->
+    </ul>
+  </div>
+</div>
+<!--主题内容-->
+<div class="main-body">
+  <div class="drop-down cf">
+    <h2>区域农产品种养殖结构</h2>
+    <span class="product-name">品种：</span>
+    <form action="" class="layui-form layui-form1 fr">
+      <select name="" id="" lay-filter="type">
+        <option value="">全部</option>
+        <option value="0">全部</option>
+      </select>
+    </form>
+    <form action="" class="layui-form fr">
+      <select name="" id="" lay-filter="time">
+        <option value="">2017.01</option>
+        <option value="2017.01">2017.01</option>
+      </select>
+    </form>
+  </div>
+  <div class="container container4 cf">
+    <div class="echart-left-box">
+      <div id="myChart1" class="myChart1">
+        <div class="circle1 fl">
+            <span class="num-time">1234</span><span class="qualified">合格次数</span>
+          </div>
+          <div class="circle2 fl">
+            <span class="num-time">1234</span><span class="unqualified">不合格次数</span>
+          </div>
+        <div class="gauge-wrapper fl">
+          <div id="gauge" class="dashboard">
+          </div>
+        </div>
+        <div class="warning-level-container fl">
+          <h3>每日预警级别说明:</h3>
+          <p>红色预警：50%<不合格次数/检测次数<100%</p>
+          <p>橙色预警：30%<不合格次数/检测次数<50%</p>
+          <p>黄色预警：10%<不合格次数/检测次数<30%</p>
+          <p>黄色预警：10%<不合格次数/检测次数<30%</p>
+        </div>
+      </div>
+      <div id="myChart2" class="myChart2">
+        
+      </div>
+    </div>
+    <div class="echart-right-box">
+      <div id="myChart3" class="myChart3"></div>
+      <div id="myChart4" class="myChart4"></div>
+    </div>
+  </div>
+  <div class="container container5 cf">
+    <div class="echart-left-box">
+      <div class="echart-title">
+        <h2>检测预警批次</h2>
+      </div>
+      <div class="echart-box">
+        <div id="mytable" class="mytable">
+          <table>
+            <thead>
+              <tr>
+                <th>检测批次</th>
+                <th>批次生产企业</th>
+                <th>检测日期</th>
+                <th>不合格原因</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>pg_20170730</td>
+                <td>企业1</td>
+                <td>2017-07-30</td>
+                <td>农药残留</td>
+              </tr>
+              <tr>
+                <td>pg_20170730</td>
+                <td>企业1</td>
+                <td>2017-07-30</td>
+                <td>农药残留</td>
+              </tr>
+              <tr>
+                <td>pg_20170730</td>
+                <td>企业1</td>
+                <td>2017-07-30</td>
+                <td>农药残留</td>
+              </tr>
+              <tr>
+                <td>pg_20170730</td>
+                <td>企业1</td>
+                <td>2017-07-30</td>
+                <td>农药残留</td>
+              </tr>
+              <tr>
+                <td>pg_20170730</td>
+                <td>企业1</td>
+                <td>2017-07-30</td>
+                <td>农药残留</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="echart-right-box">
+      <div class="echart-title">
+        <h2>重点预警企业</h2>
+      </div>
+      <div class="echart-box">
+        <div class="myChart5 cf">
+          <div id="chart" class="chart1 fl" style="width:0;height: 0;display: none;"></div>
+          <div id="chart1" class="chart1 fl"></div>
+          <div id="chart2" class="chart2 fl"></div>
+          <div id="chart3" class="chart3 fl"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container container6">
+    <div class="echart-title">
+      <h2>生产预警批次pg_20170703流向图</h2>
+    </div>
+    <div class="echart-box">
+      <div id="mapTree" class="myChart6 mapTree">
+        
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="copy-right">
+      <p>Copyright Jusfoun.com © 2016-2017&nbsp;&nbsp;&nbsp;&nbsp;河北溯源大数据信息技术有限公司</p>
+      <p>技术支持&nbsp;&nbsp;&nbsp;&nbsp;九次方大数据信息集团有限公司</p>
+    </div>
+  </div>
+</div>
+<script src="../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../libs/echart/echarts.min.js"></script>
+<script src="../../libs/echart/d3.v3.min.js"></script>
+<script src="../../libs/echart/pie.js"></script>
+<script src="../../libs/echart/echarts-liquidfill.min.js"></script>
+<script src="../../libs/echart/liquidfill.js"></script>
+<script src="../../libs/echart/main.min.js"></script>
+<script src="../../js/qualitySafety/markLine.js"></script>
+<script src="../../js/qualitySafety/treeLine.min.js"></script>
+<script src="../../libs/layui/layui.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/qualitySafety/inspectionBatchWarning.js"></script>
+</body>
+</html>

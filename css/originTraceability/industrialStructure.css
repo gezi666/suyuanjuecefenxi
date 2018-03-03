@@ -1,0 +1,242 @@
+.drop-down {
+  position: relative;
+}
+.drop-down .layui-form {
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+.container {
+  margin-bottom: 5px;
+}
+.container1 .area-tab,
+.container1 .area-tab1 {
+  padding: 10px 10px 0;
+  margin: 10px 10px;
+  background: url(../../img/area-line.png) no-repeat bottom center;
+  background-size: 100% auto;
+}
+.container1 .area-tab li,
+.container1 .area-tab1 li {
+  float: left;
+  padding: 3px 20px;
+  color: #99ffcc;
+  cursor: pointer;
+}
+.container1 .area-tab li.active,
+.container1 .area-tab1 li.active {
+  background: url(../../img/tab-bg.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.container1 .title-detail {
+  text-align: center;
+  background: url(../../img/title-detail-line.png) no-repeat bottom center;
+  background-size: 100% auto;
+}
+.container1 .title-detail h2 {
+  display: inline-block;
+  height: 56px;
+  padding: 0 10px;
+  line-height: 56px;
+  color: #fff;
+}
+.container1 .title-detail span {
+  color: #00ff99;
+  font-size: 25px;
+  padding: 0 10px;
+}
+.container1 .myChart1,
+.container1 .myChart2,
+.container1 .myChart3 {
+  width: 33.3%;
+  height: 350px;
+  color: #fff;
+}
+.container2 .myChart4,
+.container2 .myChart5,
+.container2 .myChart6 {
+  width: 33.3%;
+  height: 400px;
+  color: #fff;
+}
+.container-bottom {
+  margin-bottom: 30px;
+}
+.container3 .area-tab,
+.container4 .area-tab,
+.container5 .area-tab {
+  padding: 10px 10px 0;
+  margin: 10px 10px;
+  background: url(../../img/area-line.png) no-repeat bottom center;
+  background-size: 100% auto;
+}
+.container3 .area-tab li,
+.container4 .area-tab li,
+.container5 .area-tab li {
+  float: left;
+  padding: 3px 20px;
+  color: #92f5c4;
+  cursor: pointer;
+}
+.container3 .area-tab li.active,
+.container4 .area-tab li.active,
+.container5 .area-tab li.active {
+  background: url(../../img/tab-bg.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.container3 .myChart7,
+.container4 .myChart7,
+.container5 .myChart7 {
+  width: 100%;
+  position: relative;
+  height: 650px;
+}
+.container3 ul.mark,
+.container4 ul.mark,
+.container5 ul.mark {
+  width: 110px;
+  z-index: 13;
+  position: absolute;
+  left: 65px;
+  bottom: 50px;
+}
+.container3 ul.mark li,
+.container4 ul.mark li,
+.container5 ul.mark li {
+  width: 110px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+  color: #d9eee7;
+  text-indent: 30px;
+}
+.container3 .myChart1,
+.container4 .myChart1,
+.container5 .myChart1,
+.container3 .myChart2,
+.container4 .myChart2,
+.container5 .myChart2,
+.container3 .myChart3,
+.container4 .myChart3,
+.container5 .myChart3 {
+  width: 100%;
+  height: 400px;
+}
+.container1 .myChart-box1 {
+  width: 30%;
+  height: 530px;
+  color: #fff;
+}
+.container1 .myChart-box1 h3 {
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 20px;
+}
+.container1 .myChart-box1 h3 strong {
+  color: #00ff99;
+  padding: 0 8px;
+  font-size: 26px;
+}
+.container1 .myChart-box1 .detail {
+  padding-left: 15px;
+  margin: 35px 0;
+}
+.container1 .myChart-box1 .detail span,
+.container1 .myChart-box1 .detail strong {
+  font-size: 14px;
+  padding: 0 5px;
+  line-height: 25px;
+}
+.container1 .myChart-box1 .detail .text-title {
+  display: inline-block;
+  width: 98px;
+  padding-right: 0;
+}
+.container1 .myChart-box1 .detail strong {
+  color: #00ff99;
+  font-size: 24px;
+}
+.container1 .myChart-box1 .myChart8,
+.container1 .myChart-box1 .myChart10,
+.container1 .myChart-box1 .myChart12 {
+  width: 100%;
+  height: 300px;
+}
+.container1 .myChart-box {
+  width: 70%;
+  height: 530px;
+  color: #fff;
+}
+.container1 .myChart-box h3 {
+  font-size: 14px;
+  padding: 22px;
+}
+.container1 .myChart-box table {
+  width: 800px;
+  margin: 10px auto;
+  border: 1px solid #0f5d25;
+  text-align: center;
+}
+.container1 .myChart-box table td {
+  border: 1px solid #0f5d25;
+  line-height: 22px;
+  color: #99ffcc;
+  cursor: pointer;
+}
+.container1 .myChart-box table td.active,
+.container1 .myChart-box table td:hover {
+  border-color: #0a8853;
+  background: url(../../img/table-bg.png) no-repeat;
+  background-size: cover;
+}
+.container1 .myChart-box .myChart9,
+.container1 .myChart-box .myChart11,
+.container1 .myChart-box .myChart13 {
+  width: 100%;
+  height: 400px;
+}
+.container2 .ident {
+  padding: 30px 40px;
+}
+.container2 .ident li {
+  float: left;
+  text-align: center;
+  width: 100px;
+  color: #fff;
+  font-size: 14px;
+  margin: 10px 25px;
+  margin-bottom: 35px;
+}
+.container2 .ident span {
+  box-shadow: 0 0 20px 0 #eee;
+  width: 100%;
+  margin-top: 20px;
+  height: 100px;
+  border-radius: 5px;
+  display: block;
+  border: 1px solid #2c854b;
+  background: url(../../img/pic-list.png) no-repeat center;
+  background-size: 100% 100%;
+}
+/*yangjie*/
+#myChart5 {
+  position: relative;
+}
+#myChart5 .legend-wrapper {
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  color: #d9eee7;
+  font-size: 12px;
+}
+#myChart5 .legend-wrapper-true {
+  background: url(../../img/icon1.png) no-repeat left center;
+  padding-left: 20px;
+}
+#myChart5 .legend-wrapper-false {
+  background: url(../../img/icon2.png) no-repeat left center;
+  padding-left: 20px;
+  margin-left: 15px;
+}

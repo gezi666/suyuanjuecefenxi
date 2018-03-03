@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>遵化检测检验批次监测</title>
+  <link rel="stylesheet" type="text/css" href="../../libs/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../../css/layout.css">
+  <link rel="stylesheet" type="text/css" href="../../css/qualitySafety/inspectionBatchInspection.css">
+</head>
+<body>
+<!--头部-->
+<div class="header-box">
+  <div class="header">
+    <div class="header-title"></div>
+    <div class="header-menu">
+      <ul class="cf">
+        <li><a href="../tracingPicture/industryLayout.html">溯源一张图</a></li>
+        <li><a href="../originTraceability/industrialStructure.html">产地追溯</a></li>
+        <li><a href="../circulationTraceability/circulationTraceability.html">流通追溯</a></li>
+        <li class="active"><a href="../qualitySafety/inspectionBatchInspection.html">质量安全</a></li>
+        <li class="active"><a href="../salesAnalysis/salesAnalysis.html">农产品销售分析</a></li>
+        <li><a href="../publicSentiment/publicSentimentAnalysis.html">农产品舆情</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--菜单-->
+  <div class="nav">
+    <ul class="cf">
+      <li class="active"><a href="../qualitySafety/inspectionBatchInspection.html">遵化检测检验批次监测</a></li>
+      <li><a href="../qualitySafety/inspectionBatchWarning.html">检测检验批次预警</a></li>
+    <!--   <li><a href="../qualitySafety/inspectionBatchInspection.html">农产品质量安全指数</a></li> -->
+    </ul>
+  </div>
+</div>
+<!--主题内容-->
+<div class="main-body">
+  <div class="container container1 cf">
+    <div class="echart-left-box">
+      <div class="echart-title">
+        <h2>遵化市农产品检验检测批次监测预警</h2>
+      </div>
+      <div id="myChart1" class="myChart1">
+        <form action="" class="layui-form">
+          <div class="layui-input-block">
+            <input type="radio" class="layui-input" name="selectTime" value="24小时" title="24小时" lay-filter="time1">
+          <input type="radio" class="layui-input" name="selectTime" value="一周" title="一周" lay-filter="time1">
+          <input type="radio" class="layui-input" name="selectTime" value="一个月" title="一个月" lay-filter="time1">
+          <input type="radio" class="layui-input" name="selectTime" value="自定义" title="自定义" lay-filter="time1">
+          <input class="layui-input layui-input-time" placeholder="开始时间" type="text" id="start1" disabled="disabled" /><span class="to-time">到</span><input type="text" class="layui-input layui-input-time" placeholder="结束时间" id="end1" disabled="disabled" />
+          </div>
+        </form>
+        <div class="circle-box cf">
+          <div class="circle1 fl">
+            <span class="num-time" id="qualified">1234</span><span class="qualified">合格次数</span>
+          </div>
+          <div class="circle2 fl">
+            <span class="num-time" id="disqualification">1234</span><span class="unqualified">不合格次数</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="echart-right-box">
+      <div class="echart-title">
+        <h2>农产品检测检验批次区域分布</h2>
+        <form action="" class="layui-form">
+          <select name="" id="" lay-filter="type1">
+            <option value="">全部</option>
+            <option value="全部">全部</option>
+            <option value="合格">合格</option>
+            <option value="不合格">不合格</option>
+          </select>
+        </form>
+      </div>
+      <div id="hotWord" class="myChart2 hotWord"></div>
+    </div>
+  </div>
+  <div class="container container2">
+    <div class="echart-title">
+      <h2>农产品检测检验项目批次分布</h2>
+      <form action="" class="layui-form">
+        <select name="" id="" lay-filter="type2">
+          <option value="">全部</option>
+          <option value="全部">全部</option>
+          <option value="合格">合格</option>
+          <option value="不合格">不合格</option>
+        </select>
+      </form>
+    </div>
+    <div class="echart-box">
+      <div id="myChart3" class="myChart3"></div>
+    </div>
+  </div>
+  <div class="container container3 cf">
+    <div class="echart-left-box">
+      <div class="echart-title">
+        <h2>检测品种批次分布</h2>
+        <form action="" class="layui-form">
+          <select name="" id="" lay-filter="type3">
+            <option value="">全部</option>
+            <option value="全部">全部</option>
+            <option value="合格">合格</option>
+            <option value="不合格">不合格</option>
+          </select>
+        </form>
+      </div>
+      <div id="myChart4" class="myChart4 fl"></div>
+    </div>
+    <div class="echart-right-box">
+      <div class="echart-title">
+        <h2>检测环节批次分布</h2>
+        <form action="" class="layui-form">
+          <select name="" id="" lay-filter="type4">
+            <option value="">全部</option>
+            <option value="全部">全部</option>
+            <option value="合格">合格</option>
+            <option value="不合格">不合格</option>
+          </select>
+        </form>
+      </div>
+      <div id="myChart5" class="myChart5 fl"></div>
+    </div>
+    <!--<div class="echart-title">-->
+      <!--<h2>媒体来源排行</h2>-->
+      <!--<form action="" class="layui-form">-->
+        <!--<select name="" id="">-->
+          <!--<option value="">全部</option>-->
+          <!--<option value="全部">全部</option>
+            <option value="合格">合格</option>
+            <option value="不合格">不合格</option>-->
+        <!--</select>-->
+      <!--</form>-->
+    <!--</div>-->
+    <!--<div class="echart-box cf">-->
+      <!--<div id="myChart4" class="myChart4 fl"></div>-->
+      <!--&lt;!&ndash;<div id="myChart5" class="myChart5 fl">检测环节批次分布</div>&ndash;&gt;-->
+    <!--</div>-->
+  </div>
+  <div class="footer">
+    <div class="copy-right">
+      <p>Copyright Jusfoun.com © 2016-2017&nbsp;&nbsp;&nbsp;&nbsp;河北溯源大数据信息技术有限公司</p>
+      <p>技术支持&nbsp;&nbsp;&nbsp;&nbsp;九次方大数据信息集团有限公司</p>
+    </div>
+  </div>
+</div>
+<script src="../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="../../libs/echart/echarts.min.js"></script>
+<script src="../../js/qualitySafety/d3.min.js"></script>
+<script src="../../js/qualitySafety/test.js"></script>
+<script src="../../js/qualitySafety/scatterChart.js"></script>
+<script src="../../libs/echart/bar.js"></script>
+<script src="../../libs/echart/pie.js"></script>
+<script src="../../libs/layui/layui.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/qualitySafety/inspectionBatchInspection.js"></script>
+</body>
+</html>

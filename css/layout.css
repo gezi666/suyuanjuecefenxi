@@ -1,0 +1,207 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: url(../img/bodyBg.jpg);
+  background-size: 100% 100%;
+}
+.header-box {
+  width: 100%;
+  min-width: 1350px;
+  height: 150px;
+  clear: both;
+  /*   background: url(../img/header-bg1.jpg);
+background-size: 100% 100%; */
+}
+.main-body {
+  min-width: 1350px;
+  /*   background: url(../img/main-bg.png);
+background-size: 100% 100%; */
+}
+.header,
+.nav,
+.container,
+.copy-right {
+  width: 1280px;
+  margin: 0 auto;
+}
+.container {
+  background: url(../img/container-bg.png) no-repeat center;
+  background-size: 100% 100%;
+  margin-bottom: 35px;
+  border: 1px solid #00845f;
+  box-shadow: 0 0 20px 3px #004937;
+}
+.header {
+  width: 1280px;
+  height: 140px;
+  margin: auto;
+  background: url(../img/header-bg.png) no-repeat center top;
+}
+.header-title {
+  background: url(../img/header-title.png) no-repeat center;
+  width: 420px;
+  height: 50px;
+  margin: 0 auto;
+}
+.header-menu {
+  width: 1000px;
+  margin: 0 auto;
+}
+.header-menu li {
+  float: left;
+}
+.header-menu li a {
+  color: #99ffcc;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 10px 23px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.header-menu li:hover a,
+.header-menu li.active a {
+  color: #fff;
+}
+.header-menu li:nth-child(1) {
+  transform: rotate(7deg) translatey(-14px);
+}
+.header-menu li:nth-child(2) {
+  transform: rotate(4deg) translatey(3px);
+}
+.header-menu li:nth-child(3) {
+  transform: rotate(2deg) translatey(12px);
+}
+.header-menu li:nth-child(4) {
+  transform: rotate(-2deg) translatey(12px);
+}
+.header-menu li:nth-child(5) {
+  transform: rotate(-4deg) translatey(3px);
+}
+.header-menu li:nth-child(6) {
+  transform: rotate(-7deg) translatey(-14px);
+}
+.nav {
+  margin-top: 0;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  color: #99ffcc;
+  display: block;
+  font-size: 14px;
+  margin: 0 15px;
+  line-height: 30px;
+  padding: 0 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.nav li.active a {
+  background: url(../img/tab-bg.png) no-repeat center;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.drop-down {
+  width: 1280px;
+  margin: 0 auto 10px;
+}
+.drop-down h2 {
+  padding-left: 38px;
+  font-size: 18px;
+  color: #00ff99;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 45px;
+  margin-top: 20px;
+  line-height: 45px;
+  background: url(../img/title.png) no-repeat;
+}
+.layui-form-select {
+  float: right;
+  width: 100px;
+  margin-left: 10px;
+}
+.layui-form-select input::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.layui-form-select input:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.layui-form-select input:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.layui-form-select input::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.layui-form-select input {
+  border-radius: 20px;
+  height: 26px;
+  text-align: center;
+  line-height: 24px;
+  background: #004032;
+  border-color: #007f54;
+  color: #fff;
+}
+.layui-form-select .layui-edge {
+  border-top-color: #00ff96;
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  background: url(../img/footer-bg.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.footer .copy-right {
+  text-align: center;
+  padding: 15px 0;
+}
+.footer .copy-right p {
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+}
+.drop-down1 {
+  margin-top: 20px;
+}
+.container .analysis-list .detatil-list span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+/*yj*/
+.layui-select-title .layui-input {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-select-title .layui-input::-webkit-input-placeholder,
+.container .layui-input-time::-webkit-input-placeholder {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-select-title .layui-input:-moz-placeholder,
+.container .layui-input-time::-webkit-input-placeholder {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-select-title .layui-input::-moz-placeholder,
+.container .layui-input-time::-webkit-input-placeholder {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-select-title .layui-input:-ms-input-placeholder,
+.container .layui-input-time::-webkit-input-placeholder {
+  color: rgba(217, 238, 231, 0.5);
+}
+.layui-input:hover {
+  border: 1px solid #00f899 !important;
+}
+.layui-form-radio i {
+  font-size: 18px;
+  padding-top: 2px;
+  display: inline-block;
+}
+.hideImg {
+  display: none;
+}

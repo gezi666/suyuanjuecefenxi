@@ -1,0 +1,307 @@
+.header-box {
+  height: 190px;
+}
+.nav {
+  padding-bottom: 20px;
+}
+.drop-down {
+  position: relative;
+}
+.drop-down .layui-form {
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+.container .echart-left-box,
+.container .echart-right-box {
+  width: 50%;
+  float: left;
+}
+.container .echart-left-box {
+  background: url(../../img/line.png) no-repeat right center;
+  background-size: auto 100%;
+}
+.container .echart-title {
+  background: url(../../img/title-detail-line.png) no-repeat bottom center;
+  background-size: 100% auto;
+  padding: 20px;
+  position: relative;
+}
+.container h2 {
+  color: #99ffcc;
+  line-height: 20px;
+  border-left: 2px solid #99ffcc;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.container .echart-title > .layui-form {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+}
+.container1 #myChart1.myChart1 {
+  width: 100%;
+  height: 350px;
+}
+.container1 .layui-form-radio {
+  padding-right: 0;
+  margin-right: 5px;
+}
+.container1 .layui-form-radio span {
+  color: #d9eee7;
+}
+.container1 .layui-form-radio i:hover,
+.container1 .layui-form-radioed i {
+  color: #0fcf84;
+}
+.container1 .layui-form-radio i {
+  color: #0fcf84;
+}
+.container1 .layui-input-time {
+  display: inline-block;
+  width: 100px;
+  height: 26px;
+  line-height: 26px;
+  vertical-align: middle;
+  border-radius: 30px;
+  background: #003c2f;
+  color: #d9eee7;
+  padding: 0;
+  margin-top: 8px;
+  text-align: center;
+  border: 1px solid rgba(0, 248, 153, 0.3);
+}
+.container1 .layui-input-block {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.container1 .laydate_body .laydate_y {
+  margin-right: 13px;
+}
+.container1 span.to-time {
+  color: #d9eee7;
+  padding: 0 5px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 8px;
+}
+.container1 .circle-box {
+  padding: 40px 60px;
+}
+.container1 .circle-box .circle1 {
+  background: url(../../img/circle1.png) no-repeat center;
+}
+.container1 .circle-box .circle2 {
+  background: url(../../img/circle2.png) no-repeat center;
+}
+.container1 .circle-box .circle1,
+.container1 .circle-box .circle2 {
+  margin: 10px 40px;
+  width: 165px;
+  height: 165px;
+  background-size: 100% 100%;
+}
+.container1 .circle-box .num-time,
+.container1 .circle-box .unqualified,
+.container1 .circle-box .qualified {
+  color: #99ffcc;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
+.container1 .circle-box .num-time {
+  font-size: 30px;
+  margin-top: 55px;
+  line-height: 40px;
+  color: #fff;
+}
+.container1 .circle-box .unqualified {
+  color: #fe9300;
+}
+.container2 .myChart3 {
+  width: 100%;
+  height: 500px;
+  color: #fff;
+}
+.container3 .myChart4,
+.container3 .myChart5 {
+  width: 100%;
+  height: 400px;
+  color: #fff;
+}
+.container4 .echart-left-box {
+  width: 70%;
+  height: 700px;
+  background: url(../../img/line.png) no-repeat right center;
+  background-size: auto 100%;
+  color: #fff;
+}
+.container4 .myChart1 {
+  height: 220px;
+}
+.container4 .myChart1 .circle1 {
+  background: url(../../img/circle1.png) no-repeat center;
+}
+.container4 .myChart1 .circle2 {
+  background: url(../../img/circle2.png) no-repeat center;
+}
+.container4 .myChart1 .circle1,
+.container4 .myChart1 .circle2 {
+  margin: 60px 40px 10px 0;
+  width: 112px;
+  height: 112px;
+  background-size: 100% 100%;
+}
+.container4 .myChart1 .circle1 {
+  margin-left: 60px;
+}
+.container4 .myChart1 .num-time,
+.container4 .myChart1 .unqualified,
+.container4 .myChart1 .qualified {
+  color: #99ffcc;
+  display: block;
+  text-align: center;
+  font-size: 12px;
+}
+.container4 .myChart1 .num-time {
+  font-size: 22px;
+  margin-top: 25px;
+  line-height: 40px;
+  color: #fff;
+}
+.container4 .myChart1 .unqualified {
+  color: #fe9300;
+}
+.container4 .myChart1 .warning-level-container {
+  margin-top: 55px;
+  margin-left: 40px;
+}
+.container4 .myChart1 p {
+  color: #d9eee7;
+  line-height: 22px;
+}
+.container4 .myChart1 h3 {
+  color: #89f1be;
+  line-height: 30px;
+  font-size: 16px;
+}
+.container4 .myChart2 {
+  height: 480px;
+}
+.container4 .echart-right-box {
+  width: 30%;
+}
+.container4 .myChart3,
+.container4 .myChart4 {
+  height: 350px;
+  width: 100%;
+  color: #fff;
+}
+.container5 .mytable,
+.container5 .myChart5 {
+  height: 245px;
+  color: #fff;
+}
+.container5 .mytable table {
+  border-top: 1px solid #4af81b;
+  border-bottom: 1px solid #4af81b;
+  width: 80%;
+  height: 175px;
+  margin: 37px auto;
+}
+.container5 .mytable table thead tr {
+  background: rgba(74, 248, 27, 0.1);
+  height: 28px;
+}
+.container5 .mytable table th:first-child,
+.container5 .mytable table td:first-child {
+  border-left: none;
+}
+.container5 .mytable table th:last-child,
+.container5 .mytable table td:last-child {
+  border-right: none;
+}
+.container5 .mytable table th,
+.container5 .mytable table td {
+  color: #00ff99;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid rgba(74, 248, 27, 0.2);
+  text-align: center;
+  font-size: 12px;
+}
+.container5 .mytable table td {
+  color: rgba(217, 238, 231, 0.7);
+}
+.container5 .chart1,
+.container5 .chart2,
+.container5 .chart3 {
+  position: relative;
+  width: 33.3%;
+  height: 100%;
+}
+.container6 .myChart6 {
+  width: 100%;
+  height: 450px;
+  color: #fff;
+}
+/*杨杰添加*/
+#hotWord {
+  height: 345px;
+}
+#gauge {
+  margin-top: 60px;
+}
+.mapTree {
+  width: 1280px;
+  height: 520px;
+  position: relative;
+}
+.left {
+  float: left;
+}
+.maplegend {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.maplegend img {
+  float: left;
+}
+.maplegend span {
+  margin-top: 25px;
+  color: #d9eee7;
+  float: left;
+}
+.maplegend .maplegend-last {
+  clear: both;
+  display: inline-block;
+  margin-top: -45px;
+}
+.node {
+  cursor: pointer;
+}
+.text {
+  fill: #fff;
+  stroke: none;
+  /* 文本水平居中 */
+  text-anchor: middle;
+  /*/!* 文本垂直居中 *!/*/
+  dominant-baseline: middle;
+}
+.link {
+  fill: none;
+  stroke: #309863;
+  stroke-width: 2px;
+  stroke-dasharray: 5 2;
+}
+.product-name {
+  position: absolute;
+  right: 215px;
+  top: 35px;
+  line-height: 26px;
+  color: #d9eee7;
+}
+.drop-down .layui-form1 {
+  right: 115px;
+}
